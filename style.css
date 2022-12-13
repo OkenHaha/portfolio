@@ -11,10 +11,10 @@
 }
 
 .hero #point1{
-	animation: animate 1.8s ease-out .8s infinite alternate;
+	animation: animate 1.5s ease-out .1s infinite;
 }
 #point2{
-	animation: animate 1.8s ease-in infinite alternate;
+	animation: animate 1.5s ease-in infinite;
 }
 @keyframes animate{
 	0%{
@@ -28,3 +28,4 @@
 		color: rgba(255, 255, 255, 1.0);
 	}
 }
+
