@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	border-radius:2px solid red;
 }
 :root{
 }
@@ -29,3 +30,8 @@
 	}
 }
 
+
+
+.item{
+	background: #ccc;
+}
