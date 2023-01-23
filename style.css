@@ -3,6 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	border-radius:2px solid red;
+	scroll-behavior: smooth;
 }
 :root{
 }
@@ -34,4 +35,9 @@
 
 .item{
 	background: #ccc;
+}
+
+.about{
+	height: 50vh;
+	width: 100%;
 }
