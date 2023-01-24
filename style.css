@@ -7,6 +7,10 @@
 }
 :root{
 }
+body{
+	background: #ededed;
+	color: #3d3d3d;
+}
 .hero{
 	width: 100%;
 	height: 100vh;
