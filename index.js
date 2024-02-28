@@ -1,13 +1,9 @@
-const nerd_slide = document.getElementsByClassName("nerd");
+var nerd_slide = document.querySelector(".nerd_button");
+
 
   nerd_slide.addEventListener("click", () => {
-    // this.classList.toggle("active");
-    // var panel = this.nextElementSibling;
-    if (nerd_slide.style.display === "block") {
-      nerd_slide.style.display = "none";
-    } else {
-      nerd_slide.style.display = "block";
-    }
+    var tog = document.querySelector(".nerd");
+    tog.style.display = tog.style.display === "none" ? "block" : "none";
   });
 
 console.log("hello");
