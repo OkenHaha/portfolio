@@ -1,49 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="stylesheet" href="style.css">
-	<script defer type="text/javascript" src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<!-- Hello -->
-	<div class="flex hero flex-col justify-center items-center">
-		<small class="text-lg font-light">Hi, there<span class="text-lg">&#128075;</span></small>
-		<h1 class="text-6xl font-light">I'm <span class="font-medium">Oken</span><br><span class="nerd_button">a tech <u>Nerd</u></span><br></h1>
-		<br/>
-		<div class="nerd md:w-1/3 md:h-30">
-			<p>A tech passionate person who has been learning to code and other related topics/fields in technology since 2014. A Full Stack developer transitioning to a AI/ML engineer/researcher. Keenly oriented in the interest of where tech leads us into the near future with rapid growth and development of, not limited to <b>quantum computing</b>, Mixed reality, Transformers, Hardware chips, Cognitive science and more.
-		</div>
-		<p class="pt-28 text-xl underline font-light" alt="projects">Why don't you scroll down a bit?</p>
+    <div class="container">
+        <div class="left-column">
+            <div class="profile-picture"></div>
+            <div class="short-description">
+                <h1>Oken</h1>
+                <p>AI Engineer at <a href="https://www.nibiaa.com" target="_blank" style="text-decoration: underline; background:;color:#333;">Nibiaa Devices</a> </p>
+            </div>
+            <div class="social-icons">
+                <div class="social-icon"><a href="https://www.github.com/OkenHaha" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a></div>
+                <div class="social-icon"><a href="https://www.linkedin.com/in/okenk" target="_blank"><img src="https://w7.pngwing.com/pngs/977/831/png-transparent-linkedin-icon-hd-logo-thumbnail.png"></a></div>
+                <div class="social-icon"><a href="https://www.x.com/okenk45" target="_blank"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1723939200&semt=ais_hybrid"></a></div>
+            </div>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="menu-overlay"></div>
+            <div class="menu-content">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills & Tools</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+            </div>
+    <div class="content">
+    <div id="about" class="section">
+        <h2>About</h2>
+        <p>I have a passion for coding and believe that technology as well as science with a hint of belief can change the world ever since I embark in my coding and programming journey when I started out in 2014. Since then I've explored different fields and wide range of computer science, starting out with web development, hacking, linux, exploration of the deep/dark web and now I'm brought in to the field of AI captured by the idea of <i>AGI</i> (Artificial General Intelligence) to which I belive that with Aligning AI intelligence with human moral or even more, will bring about enlightment to all of humanity.</p>
+    </div>
+    <div id="education" class="section">
+        <h2>Education</h2>
+        <p>Master of Computer Application<br>NIELIT, Imphal, June 2021 - July 2024</p>
+        <p>Bachelor of Computer Application<br>NIELIT, Imphal, Jun 2018 - Jun 2021</p>
+    </div>
+    <div id="experience" class="section">
+        <h2>Experience</h2>
+        <p>AI Engineer - Nibiaa Devices, Manipur, August 2024 – Present</p>
+        <p>Summer Internship - NIT, Manipur, May 2024 – July 2024</p>
+        <p>Data Science and Machine Learning Intern - SKOLAR, Dec 2023 – Feb 2024</p>
+        <p>Artificial Intelligence Intern - CodSoft, Nov 2023 – Dec 2023</p>
+        <p>Machine Learning Intern - TechnoHacks EduTech Official, Oct 2023 – Nov 2023</p>
+        <p>Full Stack Web Developer Intern - NulLClass, Nov 2022 - Jan 2023</p>
+        <p>Campus Leader Intern - TechLearn.live, Dec 2021 - Jan 2022</p>
+    </div>
+    <div id="skills" class="section">
+        <h2>Skills & Tools</h2>
+        <p>Python, Numpy, Pandas, Tensorflow, Matplotlib, Google Colab, Scikit-Learn, OpenCV, Git, Github, FastAPI, Flask, MongoDB, SQLite, React, MongoDB, ExpressJS, NodeJS, VueJS, HTML, CSS, JavaScript, Django, Flask</p>
+    </div>
+    <div id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <strong>Face2Comic: Pix2Pix cGAN-Based Approach to Cartoonify Human Portraits</strong> - 
+            <a href="https://github.com/OkenHaha/face2comic-a-cGAN-approach-to-cartoonify-human-potraits" target="_blank">View Project</a><br>
+            Developed a generative model that transforms human portraits into cartoon versions using Pix2Pix cGAN, leveraging Python, TensorFlow, and CNN.
+        </li>
+        <li>
+            <strong>Image Captioning</strong> - 
+            <a href="https://github.com/OkenHaha/mca_minor_project" target="_blank">View Project</a><br>
+            Created a generative model to generate captions for images using the Flickr8k dataset, achieving 33% accuracy with CNN and Transformer architecture.
+        </li>
+        <li>
+            <strong>Facial Recognition and Identification</strong> - 
+            <a href="https://github.com/OkenHaha/CodSoft" target="_blank">View Project</a><br>
+            Built a real-time facial recognition system using Haar Cascade and OpenCV, enabling accurate identification.
+        </li>
+        <li>
+            <strong>Heart Disease Prediction</strong> - 
+            <a href="https://github.com/OkenHaha/technohacks_internship" target="_blank">View Project</a><br>
+            Developed a logistic regression model achieving 81.96% test accuracy for predicting heart disease using Python, Scikit-learn, and Pandas.
+        </li>
+        <li>
+            <strong>Wine Quality Prediction</strong> - 
+            <a href="https://github.com/OkenHaha/technohacks_internship" target="_blank">View Project</a><br>
+            Engineered a Random Forest Classifier that achieved 92.5% test accuracy in predicting wine quality, utilizing Scikit-learn, Pandas, and Matplotlib.
+        </li>
+        <li>
+            <strong>StackOverflow Clone</strong> - 
+            <a href="https://github.com/OkenHaha/Stack-Overflow-Clone" target="_blank">View Project</a><br>
+            Developed a full-stack clone of StackOverflow with user authentication, question posting, commenting, and voting, using MERN Stack, Redux, and Twilio.
+        </li>
+        <li>
+            <strong>Quiz App</strong> - 
+            <a href="https://github.com/OkenHaha/quize_game" target="_blank">View Project</a><br>
+            Created a fully functional web app for quiz games using VueJS and OpenTDB API, providing an interactive user experience.
+        </li>
+        <li>
+            <strong>React Blog</strong> - 
+            <a href="https://github.com/OkenHaha/react-blog" target="_blank">View Project</a><br>
+            Built a full-stack blog application with user authentication, commenting functionality, and responsive design using MERN Stack.
+        </li>
+        <li>
+            <strong>Online Password Management System</strong> - 
+            <a href="https://github.com/OkenHaha/django-password-manager" target="_blank">View Project</a><br>
+            Developed a secure password management system with user authentication, OTP verification, and encrypted data storage using Python and Django.
+        </li>
+        <li>
+            <strong>Developer Job Board (DevHunt)</strong> - 
+            <a href="https://github.com/OkenHaha/devhunt" target="_blank">View Project</a><br>
+            Collaborated in designing a job dashboard for a hackathon, implementing responsive design using SCSS and integrating with backend APIs.
+        </li>
+    </ul>
+</div>
 
-		<a href="#second">
-		<span class="hover:cursor-pointer">
-			<svg id="point1" class="top-44 relative" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-			<svg id="point2" class="top-40 relative" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-		</span>
-		</a>
-	</div>
+<div id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+        <li>
+            <strong>Certified Course in Blockchain Technology</strong> - NIELIT, Imphal - 
+            <a href="https://www.linkedin.com/in/okenk/overlay/1721888684119/single-media-viewer/?type=IMAGE&profileId=ACoAAD1j8lEB8PwXGS5rWyl25WzLSJZUqghIN78" target="_blank">View Certification</a>
+        </li>
+        <li>
+            <strong>Machine Learning Specialization</strong> - Coursera - 
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/BT2UM5EB46HQ" target="_blank">View Certification</a>
+        </li>
+        <li>
+            <strong>Mathematics for Machine Learning</strong> - Coursera - 
+            <a href="https://www.coursera.org/account/accomplishments/specialization/EPHF5CQMQJK6" target="_blank">View Certification</a>
+        </li>
+        <li>
+            <strong>Certified Course in Linux Server Administration</strong> - NIELIT - 
+            <a href="https://www.dropbox.com/scl/fi/z6aipg260tpkrw83hqz8s/CHN23IS10201-001-1_signed_signed.pdf?rlkey=aqwolumg3w8unhd5yb4j01rpy&e=1&dl=0" target="_blank">View Certification</a>
+        </li>
+        <li>
+            <strong>Young Career Edge Professional</strong> - TCS iON - 
+            <a href="https://www.linkedin.com/in/okenk/details/certifications/1721047758077/single-media-viewer/?profileId=ACoAAD1j8lEB8PwXGS5rWyl25WzLSJZUqghIN78" target="_blank">View Certification</a>
+        </li>
+    </ul>
+</div>
 
-	<div class="flex flex-wrap about md:flex-col justify-center items-center">
-		<h1 class="text-3xl" id="#second">My Skills</h1>
-		<div class="flex md:justify-center sm:flex-row md:items-center mx-10 gap-x-20 basis-1/3 grow flex-row">
-			<div class="item md:w-1/3 flex flex-col w-full justify-center items-center">
-				<h1>Minimal Design</h1>
-				<p>In all my designs, You can see that I first approach them in a minimalistic and a clean outlook.</p>
-			</div>
-			<div class="item md:w-1/3 flex flex-col w-full justify-center items-center">
-				<h1>3rd party service Integration</h1>
-				<p>I've tried and tested with different and several types of 3rd party services. Twilio, Stripe, are some examples. If you need any other services Integrations, I'm happy to learn and apply it too</p>
-			</div>
-			<div class="item md:w-1/3 w-full flex flex-col w-full justify-center items-center">
-				<h1>Template Design</h1>
-				<p>If you need a web template that you want to use it in a CMS like wordpress of Joomla, I can do that too.</p>
-			</div>
-		</div>
-	</div>
 
+    </div>
+    </div>
+    </div>
+    <script>
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+        const menuOverlay = document.querySelector('.menu-overlay');
+        const menuContent = document.querySelector('.menu-content');
+
+        hamburgerMenu.addEventListener('click', () => {
+            menuOverlay.classList.add('show');
+            menuContent.classList.add('show');
+        });
+
+        menuOverlay.addEventListener('click', () => {
+            menuOverlay.classList.remove('show');
+            menuContent.classList.remove('show');
+        });
+    </script>
 </body>
 </html>
