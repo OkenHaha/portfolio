@@ -3,162 +3,533 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Oken Keithellakpam | AI Engineer & Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="left-column">
-            <div class="profile-picture"></div>
-            <div class="short-description">
-                <h1>Oken</h1>
-                <p>AI Engineer at <a href="https://www.nibiaa.com" target="_blank" style="text-decoration: underline; background:;color:#333;">Nibiaa Devices</a> </p>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#hero">OK</a>
             </div>
-            <div class="social-icons">
-                <div class="social-icon"><a href="https://www.github.com/OkenHaha" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a></div>
-                <div class="social-icon"><a href="https://www.linkedin.com/in/okenk" target="_blank"><img src="https://w7.pngwing.com/pngs/977/831/png-transparent-linkedin-icon-hd-logo-thumbnail.png"></a></div>
-                <div class="social-icon"><a href="https://www.x.com/okenk45" target="_blank"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1723939200&semt=ais_hybrid"></a></div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="./certificate.html" target="_blank">Certifications</a>
+                <a href="https://medium.com/@keithellakpamoken" target="_blank">Blog</a>
             </div>
-            <div class="hamburger-menu">
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="mobile-menu-btn">
                 <span></span>
                 <span></span>
                 <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="close-menu">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="mobile-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="./certificate.html">Certifications</a>
+            <a href="https://medium.com/@keithellakpamoken" target="_blank">Blog</a>
+        </div>
+        <div class="mobile-social">
+            <a href="https://github.com/OkenHaha" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/okenk" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.x.com/okenk45" target="_blank"><i class="fab fa-square-x-twitter"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Oken Keithellakpam</span></h1>
+                <h2>AI Engineer & Full Stack Developer</h2>
+                <p>Specializing in machine learning, computer vision, and web development with a passion for AGI Safety.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="https://drive.google.com/file/d/1buwJPXsWNRsxhLZEJU4PbPYowwjn9uWV/view" target="_blank" class="btn secondary-btn">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-picture"></div>
+                <div class="social-icons">
+                    <a href="https://github.com/OkenHaha" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/okenk" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.x.com/okenk45" target="_blank" class="social-icon"><i class="fab fa-square-x-twitter"></i></a>
+                    <a href="mailto:keithellakpamoken@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
             </div>
         </div>
-        <div class="right-column">
-            <div class="menu-overlay"></div>
-            <div class="menu-content">
-                <a href="#about">About</a>
-                <a href="#education">Education</a>
-                <a href="#experience">Experience</a>
-                <a href="#skills">Skills & Tools</a>
-                <a href="#projects">Projects</a>
-                <a href="#certifications">Certifications</a>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="arrow-down"></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="section-number">01</span>
+                <h2>About Me</h2>
             </div>
-    <div class="content">
-    <div id="about" class="section">
-        <h2>About</h2>
-        <p>I have a passion for coding and believe that technology as well as science with a hint of belief can change the world ever since I embark in my coding and programming journey when I started out in 2014. Since then I've explored different fields and wide range of computer science, starting out with web development, hacking, linux, exploration of the deep/dark web and now I'm brought in to the field of AI captured by the idea of <i>AGI</i> (Artificial General Intelligence) to which I belive that with Aligning AI intelligence with human moral or even more, will bring about enlightment to all of humanity.</p>
-    </div>
-    <div id="education" class="section">
-        <h2>Education</h2>
-        <p>Master of Computer Application<br>NIELIT, Imphal, June 2021 - July 2024</p>
-        <p>Bachelor of Computer Application<br>NIELIT, Imphal, Jun 2018 - Jun 2021</p>
-    </div>
-    <div id="experience" class="section">
-        <h2>Experience</h2>
-        <p>AI Engineer - Nibiaa Devices, Manipur, August 2024 – Present</p>
-        <p>Summer Internship - NIT, Manipur, May 2024 – July 2024</p>
-        <p>Data Science and Machine Learning Intern - SKOLAR, Dec 2023 – Feb 2024</p>
-        <p>Artificial Intelligence Intern - CodSoft, Nov 2023 – Dec 2023</p>
-        <p>Machine Learning Intern - TechnoHacks EduTech Official, Oct 2023 – Nov 2023</p>
-        <p>Full Stack Web Developer Intern - NulLClass, Nov 2022 - Jan 2023</p>
-        <p>Campus Leader Intern - TechLearn.live, Dec 2021 - Jan 2022</p>
-    </div>
-    <div id="skills" class="section">
-        <h2>Skills & Tools</h2>
-        <p>Python, Numpy, Pandas, Tensorflow, Matplotlib, Google Colab, Scikit-Learn, OpenCV, Git, Github, FastAPI, Flask, MongoDB, SQLite, React, MongoDB, ExpressJS, NodeJS, VueJS, HTML, CSS, JavaScript, Django, Flask</p>
-    </div>
-    <div id="projects" class="section">
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Face2Comic: Pix2Pix cGAN-Based Approach to Cartoonify Human Portraits</strong> - 
-            <a href="https://github.com/OkenHaha/face2comic-a-cGAN-approach-to-cartoonify-human-potraits" target="_blank">View Project</a><br>
-            Developed a generative model that transforms human portraits into cartoon versions using Pix2Pix cGAN, leveraging Python, TensorFlow, and CNN.
-        </li>
-        <li>
-            <strong>Image Captioning</strong> - 
-            <a href="https://github.com/OkenHaha/mca_minor_project" target="_blank">View Project</a><br>
-            Created a generative model to generate captions for images using the Flickr8k dataset, achieving 33% accuracy with CNN and Transformer architecture.
-        </li>
-        <li>
-            <strong>Facial Recognition and Identification</strong> - 
-            <a href="https://github.com/OkenHaha/CodSoft" target="_blank">View Project</a><br>
-            Built a real-time facial recognition system using Haar Cascade and OpenCV, enabling accurate identification.
-        </li>
-        <li>
-            <strong>Heart Disease Prediction</strong> - 
-            <a href="https://github.com/OkenHaha/technohacks_internship" target="_blank">View Project</a><br>
-            Developed a logistic regression model achieving 81.96% test accuracy for predicting heart disease using Python, Scikit-learn, and Pandas.
-        </li>
-        <li>
-            <strong>Wine Quality Prediction</strong> - 
-            <a href="https://github.com/OkenHaha/technohacks_internship" target="_blank">View Project</a><br>
-            Engineered a Random Forest Classifier that achieved 92.5% test accuracy in predicting wine quality, utilizing Scikit-learn, Pandas, and Matplotlib.
-        </li>
-        <li>
-            <strong>StackOverflow Clone</strong> - 
-            <a href="https://github.com/OkenHaha/Stack-Overflow-Clone" target="_blank">View Project</a><br>
-            Developed a full-stack clone of StackOverflow with user authentication, question posting, commenting, and voting, using MERN Stack, Redux, and Twilio.
-        </li>
-        <li>
-            <strong>Quiz App</strong> - 
-            <a href="https://github.com/OkenHaha/quize_game" target="_blank">View Project</a><br>
-            Created a fully functional web app for quiz games using VueJS and OpenTDB API, providing an interactive user experience.
-        </li>
-        <li>
-            <strong>React Blog</strong> - 
-            <a href="https://github.com/OkenHaha/react-blog" target="_blank">View Project</a><br>
-            Built a full-stack blog application with user authentication, commenting functionality, and responsive design using MERN Stack.
-        </li>
-        <li>
-            <strong>Online Password Management System</strong> - 
-            <a href="https://github.com/OkenHaha/django-password-manager" target="_blank">View Project</a><br>
-            Developed a secure password management system with user authentication, OTP verification, and encrypted data storage using Python and Django.
-        </li>
-        <li>
-            <strong>Developer Job Board (DevHunt)</strong> - 
-            <a href="https://github.com/OkenHaha/devhunt" target="_blank">View Project</a><br>
-            Collaborated in designing a job dashboard for a hackathon, implementing responsive design using SCSS and integrating with backend APIs.
-        </li>
-    </ul>
-</div>
+            <div class="about-content">
+                <p>I have a passion for coding and believe that technology and science, coupled with human creativity, can transform the world. My journey in coding began in 2014, and since then I've explored various domains across computer science, starting with web development, diving into cybersecurity, mastering Linux, and understanding the depths of the internet's architecture.</p>
+                
+                <p>Now, I'm focused on the field of AI, particularly drawn to the concept of <span class="highlight">Artificial General Intelligence (AGI)</span>. I believe that aligning AI intelligence with human values and ethics will bring about meaningful advancement for humanity. Beyond my technical pursuits, I maintain a balanced life through activities that challenge both mind and body. Whether it's solving Rubik's cubes to sharpen my problem-solving skills, engaging in strategic games like chess, or playing basketball to stay active, I believe in continuous growth across different dimensions. I also find creative expression through journaling and poetry, which helps me approach technical challenges with a fresh perspective and innovative mindset.</p>
+                
+                <p>This combination of technical expertise and diverse interests allows me to bring a unique, well-rounded approach to my work in AI and software development, always striving to create solutions that are not just technically sound but also thoughtfully designed with human factors in mind.</p>
+                
+            </div>
+        </div>
+    </section>
 
-<div id="certifications" class="section">
-    <h2>Certifications</h2>
-    <ul>
-        <li>
-            <strong>Certified Course in Blockchain Technology</strong> - NIELIT, Imphal - 
-            <a href="https://www.linkedin.com/in/okenk/overlay/1721888684119/single-media-viewer/?type=IMAGE&profileId=ACoAAD1j8lEB8PwXGS5rWyl25WzLSJZUqghIN78" target="_blank">View Certification</a>
-        </li>
-        <li>
-            <strong>Machine Learning Specialization</strong> - Coursera - 
-            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/BT2UM5EB46HQ" target="_blank">View Certification</a>
-        </li>
-        <li>
-            <strong>Mathematics for Machine Learning</strong> - Coursera - 
-            <a href="https://www.coursera.org/account/accomplishments/specialization/EPHF5CQMQJK6" target="_blank">View Certification</a>
-        </li>
-        <li>
-            <strong>Certified Course in Linux Server Administration</strong> - NIELIT - 
-            <a href="https://www.dropbox.com/scl/fi/z6aipg260tpkrw83hqz8s/CHN23IS10201-001-1_signed_signed.pdf?rlkey=aqwolumg3w8unhd5yb4j01rpy&e=1&dl=0" target="_blank">View Certification</a>
-        </li>
-        <li>
-            <strong>Young Career Edge Professional</strong> - TCS iON - 
-            <a href="https://www.linkedin.com/in/okenk/details/certifications/1721047758077/single-media-viewer/?profileId=ACoAAD1j8lEB8PwXGS5rWyl25WzLSJZUqghIN78" target="_blank">View Certification</a>
-        </li>
-    </ul>
-</div>
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="section-number">02</span>
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+                <!-- Freelance -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2020 - Jan 2025</div>
+                    <div class="timeline-content">
+                        <h3>Freelance</h3>
+                        <h4>Manipur / Remote</h4>
+                        <ul>
+                            <li>Developed and deployed web applications for individual clients, handling both front-end and back-end development.</li>
+                            <li>Tutored and mentored college students in machine learning, covering model training and data preprocessing.</li>
+                            <li>Provided in-person and remote guidance for academic and industry-based projects.</li>
+                            <li>AI Training at <a href="https://outlier.ai" target="_blank">Outlier.ai</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Nibiaa Devices -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2024 - Oct 2024</div>
+                    <div class="timeline-content">
+                        <h3>AI Engineer</h3>
+                        <h4>Nibiaa Devices, Manipur</h4>
+                        <ul>
+                            <li>Developed and deployed computer vision models for EV bus applications on NVIDIA Jetson Nano.</li>
+                            <li>Collaborated with a technical team to successfully launch two applications on the Google Play Store.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- NIT, Manipur -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2024 - Jul 2024</div>
+                    <div class="timeline-content">
+                        <h3>Summer Research Intern</h3>
+                        <h4>NIT, Manipur</h4>
+                        <ul>
+                            <li>Contributed to the English-Manipuri translation dataset preparation through comprehensive proofreading.</li>
+                            <li>Implemented NLP techniques for language translation, focusing on local language preservation.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2023 - Feb 2024</div>
+                    <div class="timeline-content">
+                        <h3>Data Science and Machine Learning Intern</h3>
+                        <h4>SKOLAR</h4>
+                        <ul>
+                            <li>Applied machine learning algorithms like KNN, Lasso Regression, Random Forest, Logistic Regression, AdaBoost, and PCA</li>
+                            <li>Implemented supervised/unsupervised models showcasing data cleaning, feature engineering, and model selection skills</li>
+                            <li>Collaborated using version control tools and coding best practices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2023 - Dec 2023</div>
+                    <div class="timeline-content">
+                        <h3>Artificial Intelligence Intern</h3>
+                        <h4>CodSoft</h4>
+                        <ul>
+                            <li>Developed unbeatable Tic-Tac-Toe AI using the minimax algorithm for optimal move exploration</li>
+                            <li>Increased image classification accuracy by 15% using OpenCV and Haar Cascades</li>
+                            <li>Generated relevant image captions with33% accuracy using CNN and Transformer networks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Oct 2023 - Nov 2023</div>
+                    <div class="timeline-content">
+                        <h3>Machine Learning Intern</h3>
+                        <h4>TechnoHacks EduTech Official</h4>
+                        <ul>
+                            <li>Engineered 3 classification models predicting wine quality, diabetes, and heart disease with 75-82% accuracy</li>
+                            <li>Utilized logistic regression, random forest, SVM with Python for data preprocessing and modeling</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Other experiences remain as-is -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2022 - Jan 2023</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Web Developer Intern</h3>
+                        <h4>NulLClass</h4>
+                        <ul>
+                            <li>Developed StackOverflow clone using MERN stack (MongoDB, Express, React, Node.js)</li>
+                            <li>Implemented Redux for efficient state management across components</li>
+                            <li>Integrated Twilio API for automated chatbot with OTP verification</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2021 - Jan 2022</div>
+                    <div class="timeline-content">
+                        <h3>Campus Leader Intern</h3>
+                        <h4>TechLearn.live</h4>
+                        <ul>
+                            <li>Took Internship at TechLearn.live as a Campus Leader</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="section-number">03</span>
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/images/face2comic.jpg');">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Face2Comic</h3>
+                        <p>A Pix2Pix cGAN-based approach to cartoonify human portraits using TensorFlow and CNN.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>cGAN</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OkenHaha/face2comic-a-cGAN-approach-to-cartoonify-human-potraits" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://huggingface.co/okenk/face2comic" target="_blank"><img style="width: 30px; height: 30px;" src="https://cdn-lfs.hf.co/repos/96/a2/96a2c8468c1546e660ac2609e49404b8588fcf5a748761fa72c154b2836b4c83/942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27hf-logo.svg%3B+filename%3D%22hf-logo.svg%22%3B&response-content-type=image%2Fsvg%2Bxml&Expires=1740155594&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MDE1NTU5NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy85Ni9hMi85NmEyYzg0NjhjMTU0NmU2NjBhYzI2MDllNDk0MDRiODU4OGZjZjVhNzQ4NzYxZmE3MmMxNTRiMjgzNmI0YzgzLzk0MmNhZDFjY2RhOTA1YWM1YTY1OWRmZDJkNzhiMzQ0ZmNjZmI4NGE4YTNhYzM3MjFlMDhmNDg4MjA1NjM4YTA%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=RXlXgCVfhxG4vqoi%7EhVfuYl1MMk8J-BMdSmiWoJMlA0Gz1ruK2jSFlZBxP9MGoZpDLvtwtyu9i5BhKhKlJpU5wnr6K6I6P-NAmMhViRqwYZBPFKO9c-Dv2z%7EP5r32VRRnEerwJlCckvJc5j0zaA9BwKaMVw0sHyDHi0ZoZyNpd9CyK22fNHn%7EiZRPrpQFVwpudhE1NX6DT5sxrJsmksl64E3CRJYWE%7E3eaulrTof-%7EbhU9DdOcamrvDPHf3LbI9pf41QJBiGWQXHAYo66XTaugXQhl-yuh8KQP2LESIH552dg2ElTnygqoQoX4Wz23wdx7RJ1La03zgOQ7524IJpjw__&Key-Pair-Id=K3RPWS32NSSJCE"></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/images/image-caption.jpg');">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Image Captioning</h3>
+                        <p>Generative model to create captions for images using Flickr8k dataset with CNN and Transformer architecture.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>CNN</span>
+                            <span>Transformers</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OkenHaha/mca_minor_project" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/images/facial-recognition.jpg');">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Facial Recognition System</h3>
+                        <p>Real-time facial recognition system using Haar Cascade and OpenCV for accurate identification.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Haar Cascade</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OkenHaha/CodSoft" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('assets/images/stackoverflow.jpg');">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>StackOverflow Clone</h3>
+                        <p>Full-stack StackOverflow clone with user authentication, question posting, commenting, and voting.</p>
+                        <div class="project-tech">
+                            <span>MERN Stack</span>
+                            <span>Redux</span>
+                            <span>Twilio</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OkenHaha/Stack-Overflow-Clone" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://stack-overflow-clone-hazel.vercel.app/" target="_blank"><i class="fa fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://github.com/OkenHaha?tab=repositories&q=&type=source&language=&sort=" target="_blank" class="btn outline-btn">View All Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="section-number">04</span>
+                <h2>Skills & Tools</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Google Colab</span>
+                        <span class="skill-tag">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend & Databases</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools & Version Control</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="section-number">05</span>
+                <h2>Activities & Engagements</h2>
+            </div>
+            <div class="activities-container">
+
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3>SWOC 2025 Project Maintainer</h3>
+                        <p>Serving as a Project maintainer for Social Winter of Code 2025</p>
+                        <span class="activity-date">January 1, 2025 - March 1, 2025</span>
+                        <div class="activity-links">
+                            <a href="https://github.com/OkenHaha/react-blog" target="_blank" title="IWOC Repository">
+                                <i class="fab fa-github"></i> Project
+                            </a>
+                            <a href="https://www.socialwinterofcode.com/project">
+                                <i class="fa fa-globe"></i> SWOC 2025
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3>IWOC 3.0 Project Maintainer</h3>
+                        <p>Serving as a Project maintainer for Innogeeks Winter of Code 2025</p>
+                        <span class="activity-date">January 22, 2025 - Feb 27, 2025</span>
+                        <div class="activity-links">
+                            <a href="https://github.com/OkenHaha/react-blog" target="_blank" title="IWOC Repository">
+                                <i class="fab fa-github"></i> Project
+                            </a>
+                            <a href="https://iwoc3.live/projects">
+                                <i class="fa fa-globe"></i> IWOC 3.0
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Speaker</h3>
+                        <p>Will be Delivering a speech on Open Source Contribution at <a href="https://cybrella.in/" target="_blank">Cyberlla 2025</a> held at Nielit, Imphal</p>
+                        <span class="activity-date">March 1, 2025</span>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Hacktoberfest Participant</h3>
+                        <p>Successfully participated in and completed the 2023 Hacktoberfest challenge</p>
+                        <span class="activity-date">October 2023</span>
+                        <div class="activity-links">
+                            <a href="https://github.com/search?q=author%3AOkenHaha+created%3A2023-10-01..2023-10-31&type=pullrequests" target="_blank" title="View Contributions">
+                                <i class="fab fa-github"></i> View Contributions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Dennis Ivy Hackathon</h3>
+                        <p>Participated in the Dennis Ivy Hackathon, developing innovative solutions under time constraints</p>
+                        <span class="activity-date">2022</span>
+                        <div class="activity-links">
+                            <a href="http://github.com/OkenHaha/devhunt" target="_blank" title="View Project">
+                                <i class="fab fa-github"></i> Project
+                            </a>
+                             <button class="video-btn" onclick="openVideoModal()">
+                                <i class="fas fa-play-circle"></i> Watch Review
+                            </button>
+                        </div>
+                    </div>
+                </div>
 
 
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-rocket"></i> <!-- or you could use fa-hackathon if you prefer -->
+                    </div>
+                    <div class="activity-content">
+                        <h3>PowerToFly Student Hackathon</h3>
+                        <p>Participated in a 24-hour online hackathon organized by PowerToFly, developing solutions within a challenging time constraint</p>
+                        <span class="activity-date">April 23, 2022 - April 24, 2022</span> <!-- Add the specific date if you have it -->
+                        <div class="activity-links">
+                            <a href="https://github.com/ProjectTravelPartner" target="_blank" title="View Project">
+                                <i class="fab fa-github"></i> Project
+                            </a>
+                            <a href="https://ptf-student-hackathon-v2.devpost.com/" target="_blank">
+                                <i class="fa fa-globe"></i>Devpost
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="section-number">06</span>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <p>I'm currently looking for new opportunities and am open to collaborations, especially in AI and machine learning projects.</p>
+                <a href="mailto:keithellakpamoken@gmail.com" class="btn primary-btn">Say Hello <i class="fas fa-paper-plane"></i></a>
+                <div class="contact-socials">
+                    <a href="https://github.com/OkenHaha" target="_blank" class="contact-social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/okenk" target="_blank" class="contact-social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.x.com/okenk45" target="_blank" class="contact-social-icon"><i class="fab fa-square-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>Designed & Built by Oken Keithellakpam</p>
+            <p>&copy; 2025</p>
+        </div>
+    </footer>
+
+    <!-- Add this at the end of your body tag -->
+    <div id="videoModal" class="modal1">
+        <div class="modal-content1">
+            <span class="close-modal1" onclick="closeVideoModal()">&times;</span>
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/XeGJ5-zma1E?si=aMSuHsCGCUDLeUvM" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-    <script>
-        const hamburgerMenu = document.querySelector('.hamburger-menu');
-        const menuOverlay = document.querySelector('.menu-overlay');
-        const menuContent = document.querySelector('.menu-content');
-
-        hamburgerMenu.addEventListener('click', () => {
-            menuOverlay.classList.add('show');
-            menuContent.classList.add('show');
-        });
-
-        menuOverlay.addEventListener('click', () => {
-            menuOverlay.classList.remove('show');
-            menuContent.classList.remove('show');
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>

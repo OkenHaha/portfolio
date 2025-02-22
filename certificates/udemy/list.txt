@@ -1,0 +1,36 @@
+Folder PATH listing
+Volume serial number is FA7C-6BC4
+C:.
+    Bash-Scripting,-Linux-and-Shell-Programming-Complete-Guide.jpg
+    Become-a-Pro-WordPress-Freelancer-&-Get-Web-Design-Clients.jpg
+    Build-Full-Stack-Projects-with-FARM-stack.jpg
+    Complete-Front-End-Web-Development-course---11-REAL-PROJECTS.jpg
+    CSS3-and-Bootstrap-for-Absolute-Beginners---4-courses-in-1.jpg
+    Develop-A-Pizza-Delivery-App-With-Django-3.1(Latest).jpg
+    Developing-CRUD-Application-using-FASTAPI-Python-&-MongoDB.jpg
+    Front-End-Web-Development-Ultimate-Course-2021.jpg
+    Full-Stack-Programming-for-Complete-Beginners-in-Python.jpg
+    Git-&-Github-Master-Course(2022).jpg
+    How-To-Create-an-Ecommerce-Website---WooCommerce.jpg
+    INFJ---The-Ultimate-Guide-to-Your-Personality-And-Career.jpg
+    Learn-to-Build-AI-assistant-like-JARVIS-using-Python.jpg
+    Learn-to-Build-Websites-in-Django-3.0.jpg
+    Learn-to-Create-AI-Voice-Assistant-(JARVIS)-With-Python.jpg
+    list.txt
+    Memory-Hacks---Learn-How-to-Increase-Memory-and-Speed-Reading.jpg
+    MERN-Stack-with-Blog-Project.jpg
+    Minimalist-Lifestyle---Simplify-Your-Life!-(Minimalism).jpg
+    Python-3-Boot-Camp-in-GUI-automation-for-absolute-beginners.jpg
+    Python-Performance-Optimization.jpg
+    React-JS--Complete-Guide-for-Frontend-Web-Development-[2021].jpg
+    React-JS-Notes-App-&-Crash-Course.jpg
+    Sass-Course-For-Beginners---Learn-Sass-and-SCSS-From-Scratch.jpg
+    SQL-Injection-Ethical-Hacking-Course.jpg
+    Stress-Management---1-Hour-Intro-Course---Reduce-Stress-Now.jpg
+    The-Journey-of-Divine-Love-for-Twin-Flames-and-Soul-Mates.jpg
+    Time-Management-Mastery-10X-Your-Time,-Join-the-New-Rich.jpg
+    WordPress-&-WooCommerce-Course---Complete-Guide-to-E-Commerce.jpg
+    Wordpress-Tutorial-How-To-Build-A-Wordpress-Website-for-2021.jpg
+    
+No subfolders exist 
+
